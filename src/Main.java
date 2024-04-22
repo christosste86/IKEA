@@ -6,7 +6,7 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
 
         //Offers
-        Offers offer01 = new Offers(1,"Bye two, save 15%","save 15%",  "pieces",15, 2, 0);
+        Offers offer01 = new Offers(1, "Bye two, save 15%","save 15%",  "pieces",15, 2, 0);
         Offers offer02 = new Offers(2,"Over 20000 save 30%","save 30%","value", 30, 1, 20000);
         Offers offer03 = new Offers(3, "Coffee free","Coffee voucher","voucher", 0, 1, 600);
         Offers offer04 = new Offers(4,"Lunch free","Lunch voucher","voucher", 0, 1, 1500);
@@ -15,13 +15,13 @@ public class Main {
         Offers [] offer = {offer01, offer02, offer03, offer04, offer05};
 
         //customers
-        Customers customer01 = new Customers("Christos",0,50000);
-        Customers customer02 = new Customers("Martin",0,20000);
-        Customers customer03 = new Customers("Darek",0,1000);
-        Customers customer04 = new Customers("Petr",0,8000);
-        Customers customer05 = new Customers("Dominik",0,0);
-        Customers customer06 = new Customers("",0,0);
-        Customers customer07 = new Customers("",0,0);
+        Customers customer01 = new Customers("Christos",new Integer[20],0,50000);
+        Customers customer02 = new Customers("Martin",new Integer[20],0,20000);
+        Customers customer03 = new Customers("Darek",new Integer[20],0,1000);
+        Customers customer04 = new Customers("Petr",new Integer[20],0,8000);
+        Customers customer05 = new Customers("Dominik",new Integer[20],0,0);
+        Customers customer06 = new Customers("",new Integer[20],0,0);
+        Customers customer07 = new Customers("",new Integer[20],0,0);
         int [] basket = {0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0};
 
         //furnitures

@@ -2,12 +2,14 @@ import java.util.Arrays;
 
 public class Customers {
     String name;
+    Integer [] basket;
     double priceOfFurnitures;
     double wallet;
 
 
-    public Customers(String name, double priceOfFurnitures, double wallet) {
+    public Customers(String name,Integer [] basket, double priceOfFurnitures, double wallet) {
         this.name = name;
+        this.basket = basket;
         this.priceOfFurnitures = priceOfFurnitures;
         this.wallet = wallet;
     }
